@@ -34,6 +34,11 @@
   grid-row-start: 2;
 }
 
+.component {
+  align-items: center;
+  justify-content: center;
+}
+
 .main ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;
@@ -105,6 +110,19 @@ a.secondary {
 
 .footer img {
   flex-shrink: 0;
+}
+
+.line {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.phase {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Enable hover only on non-touch devices */
